@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Restaurant Template by Templatesperfect.com Author Paarth -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Restaurant Template by Templatesperfect.com</title>
+
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.style3 {font-size: 14px}
+-->
+</style>
+</head>
+
+<body background="sf2.JPG">
+
+<div id="container">
+
+<div id="headerPan">
+<ul class="menu">
+<li><form action="h1.php" method="post">
+<input type="hidden" name="name" value="<?php echo($uname) ?>" />
+ <input type="hidden" name="pwrd" value="<?php echo($paswrd) ?>" />
+<input type="submit" value="Home"  style="background-color:#000000; color:#FF9933; font-size:17px;font-family:Comic Sans MS;" />
+</form></li>
+<li><form action="of.html"><?php $xy=$_POST['uname']; ?><input type="submit" value="Order-E-food"  style="background-color:#000000; color:#FF9933; font-size:17px;font-family:Comic Sans MS;""/></form> </li>
+<li><a href="#" title="search-a-hotel">search-a-hotel</a></li>
+
+<li><form action="bs.html"><input type="submit" value="Logout"  style="background-color:#000000; color:#FF9933; font-size:17px;font-family:Comic Sans MS;"/></form> </li>
+</ul>
+<?php
+$xy=$_POST['uname'];
+echo($xy);
+?>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp; </p>
+</div>
+
+<div id="contentPan">
+
+<div id="c1">
+
+<div id="news">
+<h2>Special Offers </h2>
+
+<p><a href="#">Get free combos</a></p>
+
+</div>
+
+<div id="testimonials">
+<h2>User Review's </h2>
+</div>
+
+<h2>Find us on</h2>    
+          <div id="icons"> 
+<a href="#"> <img src="images/twitter.png" alt="" />  </a>
+<a href="#"> <img src="images/facebook.png" alt="" />   </a>
+<a href="#"> <img src="images/rss.png" alt="" /></a>
+<a href="#"> <img src="images/technorati.png" alt="" /></a>
+</div>  
+</div>
+
+
+<div id="c2">
+
+<div id="welcome">
+<h1 class="style1">Order Your e-Food</h1>
+<br />
+<br />
+<h3>Select your Restaurent:</h3>
+<form action="or2.php" method="post">
+
+ <br />
+ <select name="menu1" size="1" class="headline" >
+      <option value="ph">PizzaHut</option>
+      <option value="kfc">KFC</option>
+      <option value="dom">Dominos</option>
+      <option value="fx">FoodEx</option>
+      <option></option>
+     </select>
+	 <br />
+<br />
+<br />
+<h3 style="color:#000099">Select your Food:</h3>
+<p style="color:#000099">&nbsp;</p>
+<p style="color:#000099">
+  <label>
+  <input type="checkbox" name="check1" value="<?php echo('pizza'); ?>" />
+  <span class="headline style3">  Pizza </span></label>
+</p>
+<p style="color:#000099">&nbsp;</p>
+<p style="color:#000099">Quantity:<span class="headline">
+  <select name="select1" size="1" class="headline2" >
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+     
+  </select>
+</span></p>
+<p style="color:#000099">&nbsp;</p>
+<p style="color:#000099">&nbsp; </p>
+<span class="headline">
+<label>
+<input type="checkbox" name="check2" value="<?php echo('bur'); ?>" />
+<span class="style3"> Burgers</span></label>
+</span>
+<p class="headline">&nbsp;
+</p>
+<p><span style="color:#000099">Quantity:</span><span class="headline">
+  <select name="select2" size="1" class="headline2" >
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+   
+  </select>
+</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+  <span class="headline">
+  <label>
+  <input type="checkbox" name="check3" value="<?php echo('hotd'); ?>" />
+  <span class="style3">  HotDogs</span></label>
+  </span></p>
+<p>&nbsp;</p>
+<p><span style="color:#000099">Quantity:</span><span class="headline">
+  <select name="select3" size="1" class="headline2" >
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4 </option>
+  
+  </select>
+</span></p>
+<p class="headline"><br />
+    <input type="checkbox" name="check4" value="<?php echo('combo'); ?>" />
+  <span class="style3">  Combos 
+    <br />
+    (1pizza+1GarlicBread+SoftDrink)
+    </label>
+      </span></p>
+<p class="headline">&nbsp;</p>
+<p><span style="color:#000099">Quantity:</span><span class="headline">
+  <select name="select4" size="1" class="headline2" >
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4 <option>
+  </select>
+</span></p>
+<p><br />
+  <input type="hidden" name="name" value="<?php echo($xy);?>" />
+  
+  <input type="submit" value="order" />
+  </form>
+</p>
+<div class="clear"></div>
+</div>
+
+<div id="featured">
+
+
+
+<div class="clear"></div>
+</div>
+
+</div>
+
+<div class="clear" style="height:20px"></div>
+</div>
+
+<p><div id="footerPan">
+
+<p>DEVELOPED BY INNOVATIVE STUDENTS OF<strong> ANDHRA UNIVERSITY</strong>(<strong>MSIT</strong>) </p>
+     </div>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Restaurant Template by Templatesperfect.com Author Paarth -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Order your food onlie from e-Food</title>
+
+<link href="file:///G|/prjt/css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body background="file:///G|/prjt/sf2.JPG">
+
+<div id="container">
+
+<div id="headerPan">
+
+<br /><br />
+<br />
+<br />
+<br />
+<br /><br /><br /><br />
+<br />
+<br />
+<br />
+<ul class="menu">
+<li><a href="file:///G|/prjt/index.html" title="home page">home page</a></li>
+<li><a href="#" title="order-e-food">order-e-food</a></li>
+<li><a href="#" title="search-a-hotel">search-a-hotel</a></li>
+<li><a href="file:///G|/prjt/register.html" title="register">register</a></li>
+<li><a href="file:///G|/prjt/signin.html" title="signin">signin</a></li>
+</ul>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp; </p>
+</div>
+
+<div id="contentPan">
+
+<div id="c1">
+
+<div id="news">
+<h2>Special Offers </h2>
+
+<p><a href="#">Get free combos</a></p>
+</div>
+
+<div id="testimonials">
+<h2>User Review's </h2>
+</div>
+
+<h2>Find us on</h2>    
+          <div id="icons"> 
+<a href="#"> <img src="file:///G|/prjt/images/twitter.png" alt="" />  </a>
+<a href="#"> <img src="file:///G|/prjt/images/facebook.png" alt="" />   </a>
+<a href="#"> <img src="file:///G|/prjt/images/rss.png" alt="" /></a>
+<a href="#"> <img src="file:///G|/prjt/images/technorati.png" alt="" /></a></div>  
+</div>
+
+<div id="c2">
+  <form name="myForm" action="file:///G|/prjt/f1.php" onsubmit="return loginForm()" method="POST">
+<h2 class="style17">Welcome to e-FOOD </h2> 
+<p><br>
+  
+    <br>
+    <span class="style16">Please Enter your Id and Password</span></p>
+<p><br>
+  <span class="style12">username:</span></p>
+<p>
+  <input type="text" name="name" />
+  <br>
+  <span class="style12">password:</span> 
+  <input type="password" name="pwrd" />
+    <br>
+    <br>
+ 
+  <input type="submit" value="login"/>
+</p>
+</form>
+<a href="">Forgot password?</a> 
+
+</div>
+
+<div class="clear" style="height:20px"></div>
+</div>
+
+<div id="footerPan">
+
+<p>DEVELOPED BY INNOVATIVE STUDENTS OF<strong> ANDHRA UNIVERSITY</strong>(<strong>MSIT</strong>) </p>
+</div>
+
+</div>
+
+
+</body>
+</html>
